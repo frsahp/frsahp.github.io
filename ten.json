@@ -1,0 +1,349 @@
+{
+    "PenalCode": {
+        "1": [
+            {
+                "title": "Visual contact lost",
+                "class": "Communication",
+                "id": "10-0",
+                "color": "#4B9F2E",
+                "description": "Indicates that visual contact with a subject or unit has been lost."
+            },
+            {
+                "title": "Frequency change",
+                "class": "Communication",
+                "id": "10-1",
+                "color": "#D81C7A",
+                "description": "Instruction to change radio frequency."
+            },
+            {
+                "title": "I'm going to the station",
+                "class": "Status",
+                "id": "10-2",
+                "color": "#2F6ACB",
+                "description": "Officer is returning to the station."
+            },
+            {
+                "title": "Silence on the radio",
+                "class": "Communication",
+                "id": "10-3",
+                "color": "#E7A413",
+                "description": "Request for radio silence."
+            },
+            {
+                "title": "I understand",
+                "class": "Communication",
+                "id": "10-4",
+                "color": "#8C3F9D",
+                "description": "Confirmation that message is understood."
+            },
+            {
+                "title": "Intermission",
+                "class": "Status",
+                "id": "10-5",
+                "color": "#F57B2D",
+                "description": "Taking a brief break."
+            },
+            {
+                "title": "Busy",
+                "class": "Status",
+                "id": "10-6",
+                "color": "#1AB4E9",
+                "description": "Officer is currently occupied with another task."
+            },
+            {
+                "title": "Off duty",
+                "class": "Status",
+                "id": "10-7",
+                "color": "#C62E5F",
+                "description": "Officer is no longer on active duty."
+            },
+            {
+                "title": "On duty",
+                "class": "Status",
+                "id": "10-8",
+                "color": "#7D8A0F",
+                "description": "Officer is available and on active duty."
+            },
+            {
+                "title": "Repeat the report",
+                "class": "Communication",
+                "id": "10-9",
+                "color": "#3E7CB5",
+                "description": "Request to repeat the previous transmission."
+            },
+            {
+                "title": "Assault",
+                "class": "Crime",
+                "id": "10-10",
+                "color": "#A91F86",
+                "description": "Report of an assault in progress or completed."
+            },
+            {
+                "title": "Traffic Stop",
+                "class": "Routine",
+                "id": "10-11",
+                "color": "#D4721B",
+                "description": "Officer is conducting a traffic stop."
+            },
+            {
+                "title": "Independent drive",
+                "class": "Status",
+                "id": "10-12",
+                "color": "#5C2A9E",
+                "description": "Officer is patrolling independently."
+            },
+            {
+                "title": "Shooting",
+                "class": "Emergency",
+                "id": "10-13",
+                "color": "#F93A6D",
+                "description": "Report of shots fired or shooting incident."
+            },
+            {
+                "title": "Transporting the suspect to the cells",
+                "class": "Status",
+                "id": "10-15",
+                "color": "#27D5A8",
+                "description": "Officer is transporting a suspect to detention."
+            },
+            {
+                "title": "Theft of a vehicle",
+                "class": "Crime",
+                "id": "10-16",
+                "color": "#8B6FCF",
+                "description": "Report of a stolen vehicle."
+            },
+            {
+                "title": "Suspicious person",
+                "class": "Observation",
+                "id": "10-17",
+                "color": "#B41E53",
+                "description": "Report of a person behaving suspiciously."
+            },
+            {
+                "title": "Location",
+                "class": "Information",
+                "id": "10-20",
+                "color": "#E6A412",
+                "description": "Request or provision of current location."
+            },
+            {
+                "title": "Ignore it/Ignore command",
+                "class": "Instruction",
+                "id": "10-22",
+                "color": "#3F8CDA",
+                "description": "Instruction to disregard previous message or order."
+            },
+            {
+                "title": "Arrived at the location",
+                "class": "Status",
+                "id": "10-23",
+                "color": "#B91E5F",
+                "description": "Officer has arrived at the specified location."
+            },
+            {
+                "title": "Driving license check",
+                "class": "Information",
+                "id": "10-27",
+                "color": "#27D4A8",
+                "description": "Request to verify driver's license information."
+            },
+            {
+                "title": "License plate check",
+                "class": "Information",
+                "id": "10-28",
+                "color": "#F57C2E",
+                "description": "Request to check vehicle registration by plate number."
+            },
+            {
+                "title": "Checking whether a person is wanted",
+                "class": "Information",
+                "id": "10-29",
+                "color": "#8A6BCF",
+                "description": "Request to verify if a person has outstanding warrants."
+            },
+            {
+                "title": "Wanted person",
+                "class": "Status",
+                "id": "10-30",
+                "color": "#E21B95",
+                "description": "Confirmation that a person is wanted by law enforcement."
+            },
+            {
+                "title": "Need for assistance",
+                "class": "Emergency",
+                "id": "10-32",
+                "color": "#12E9B3",
+                "description": "Officer requesting backup or assistance."
+            },
+            {
+                "title": "Start of patrol",
+                "class": "Status",
+                "id": "10-41",
+                "color": "#C43A7F",
+                "description": "Officer is beginning patrol duties."
+            },
+            {
+                "title": "End of patrol",
+                "class": "Status",
+                "id": "10-42",
+                "color": "#5B9F2D",
+                "description": "Officer is completing patrol duties."
+            },
+            {
+                "title": "Provide more information",
+                "class": "Communication",
+                "id": "10-43",
+                "color": "#D8721A",
+                "description": "Request for additional details about a situation."
+            },
+            {
+                "title": "Person died/exit",
+                "class": "Emergency",
+                "id": "10-44",
+                "color": "#4E2B96",
+                "description": "Report of a deceased person or fatality."
+            },
+            {
+                "title": "Traffic accident",
+                "class": "Emergency",
+                "id": "10-50",
+                "color": "#A7D51F",
+                "description": "Report of a vehicle collision or accident."
+            },
+            {
+                "title": "EMS is needed",
+                "class": "Emergency",
+                "id": "10-52",
+                "color": "#E31C68",
+                "description": "Request for emergency medical services."
+            },
+            {
+                "title": "Armed with a firearm",
+                "class": "Warning",
+                "id": "10-60",
+                "color": "#2F7AB8",
+                "description": "Suspect is known to be armed with a gun."
+            },
+            {
+                "title": "Abduction",
+                "class": "Crime",
+                "id": "10-62",
+                "color": "#9B4F0E",
+                "description": "Report of a kidnapping or abduction."
+            },
+            {
+                "title": "Reckless driver",
+                "class": "Traffic",
+                "id": "10-66",
+                "color": "#6CD8F2",
+                "description": "Report of a driver operating vehicle in a dangerous manner."
+            },
+            {
+                "title": "Armed Robbery",
+                "class": "Crime",
+                "id": "10-68",
+                "color": "#F94A8D",
+                "description": "Report of a robbery involving weapons."
+            },
+            {
+                "title": "Foot pursuit",
+                "class": "Action",
+                "id": "10-70",
+                "color": "#1BCE47",
+                "description": "Officer is pursuing suspect on foot."
+            },
+            {
+                "title": "Scene supervision",
+                "class": "Management",
+                "id": "10-71",
+                "color": "#8752D0",
+                "description": "Supervisor is managing an incident scene."
+            },
+            {
+                "title": "Your vehicle is moving and the acceleration is in progress",
+                "class": "Status",
+                "id": "10-80",
+                "color": "#D1A60B",
+                "description": "Vehicle is in motion with increasing speed."
+            },
+            {
+                "title": "Police admonition",
+                "class": "Action",
+                "id": "10-90",
+                "color": "#3E9C7A",
+                "description": "Officer is issuing a formal warning."
+            },
+            {
+                "title": "Suspect secured in handcuffs",
+                "class": "Status",
+                "id": "10-95",
+                "color": "#B57F2C",
+                "description": "Suspect has been restrained with handcuffs."
+            },
+            {
+                "title": "On the road",
+                "class": "Status",
+                "id": "10-97",
+                "color": "#4A9E1D",
+                "description": "Officer is traveling on a specified route."
+            },
+            {
+                "title": "I continue my patrol",
+                "class": "Status",
+                "id": "10-98",
+                "color": "#E21B95",
+                "description": "Officer is resuming normal patrol duties."
+            },
+            {
+                "title": "Policeman in distress",
+                "class": "Emergency",
+                "id": "10-99",
+                "color": "#7C3FA8",
+                "description": "Officer is in danger and requires immediate assistance."
+            },
+            {
+                "title": "No beacons and no sirens",
+                "class": "Response",
+                "id": "Code 1",
+                "color": "#F68A0C",
+                "description": "Respond to location without emergency equipment."
+            },
+            {
+                "title": "Beacons only",
+                "class": "Response",
+                "id": "Code 2",
+                "color": "#2D7BCF",
+                "description": "Respond with lights only, honk at intersections."
+            },
+            {
+                "title": "Beacons and sirens",
+                "class": "Response",
+                "id": "Code 3",
+                "color": "#A41E6B",
+                "description": "Full emergency response with lights and sirens."
+            },
+            {
+                "title": "Under control",
+                "class": "Status",
+                "id": "Code 4",
+                "color": "#D9731F",
+                "description": "Situation is contained, no further assistance needed."
+            },
+            {
+                "title": "Felony Stop",
+                "class": "Procedure",
+                "id": "Code 5",
+                "color": "#5E2B9A",
+                "description": "High-risk traffic stop procedure for dangerous suspects."
+            },
+            {
+                "title": "False alarm",
+                "class": "Status",
+                "id": "Code 12",
+                "color": "#F8396E",
+                "description": "Report of a false or unsubstantiated emergency call."
+            }
+        ]
+    }
+}
